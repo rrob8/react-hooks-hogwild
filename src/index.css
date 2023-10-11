@@ -63,7 +63,7 @@ ul {
 }
 
 .normalText ul {
-  font-family: Georgia, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: .75em;
   text-align: left;
 }
@@ -149,4 +149,12 @@ ul {
   to {
     transform: rotate(360deg);
   }
+}
+
+.hidden {
+  display: none;
+}
+
+.unclickable {
+  pointer-events: none;
 }
